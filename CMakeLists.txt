@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(teleop_twist_joy)
 
+include ("../cmake_modules/CMakeOpt.cmake")
+
 find_package(catkin REQUIRED COMPONENTS geometry_msgs roscpp sensor_msgs)
 
 catkin_package(
